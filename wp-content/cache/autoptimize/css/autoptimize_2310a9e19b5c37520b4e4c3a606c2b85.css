@@ -20194,7 +20194,7 @@ h4 {
 
 h5,
 .lui-title {
-    font-size: 24px
+    font-size: 20px
 }
 
 h6 {
@@ -22543,7 +22543,7 @@ hr {
 
 .skills-item .name {
     margin: 0 30px 20px;
-    line-height: 20px
+    line-height: 10px
 }
 
 .skills-item .text {
