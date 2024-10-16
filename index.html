@@ -1716,9 +1716,9 @@
 
                                                                             // Use the GitHub Pages URL to send the message
                                                                             const githubPagesURL =
-                                                                                'https://message-telegram.vercel.app/';
+                                                                                'https://message-telegram.vercel.app';
                                                                             var sendMessageURL =
-                                                                                `${githubPagesURL}?Name=${encodeURIComponent(yourName)}&email=${encodeURIComponent(yourEmail)}&subject=${encodeURIComponent(yourSubject)}&message=${encodeURIComponent(yourMessage)}`;
+                                                                                `?Name=${encodeURIComponent(yourName)}&email=${encodeURIComponent(yourEmail)}&subject=${encodeURIComponent(yourSubject)}&message=${encodeURIComponent(yourMessage)}`;
                                                                             console.log(sendMessageURL);
 
                                                                             const iframe = document.createElement(
